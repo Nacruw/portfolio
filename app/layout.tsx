@@ -27,6 +27,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="Nacruw, Ryuko, Portfolio, Front-end, Game dev, Developer, Web developer, Indie developer, Marwane Birrou, React, Nextjs, Marwane" />
+        <meta name="author" content="Marwane Birrou" />
+        <meta name="description" content="Portfolio website of Marwane Birrou (Nacruw), a front-end and game developer." />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
