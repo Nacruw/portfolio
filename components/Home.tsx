@@ -61,7 +61,7 @@ const openWindow = (id: string) => {
     <motion.div className="flex md:items-center md:static absolute top-1/4 md:gap-4 " initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5, delay: 2}}>
       
       <TypingText
-        text={["Web Developer", "Game Developer", "Swordsoul Best Deck", "My body is a machine", "That turns full combo", "Into S:P pass"]}
+        text={["Front-end Developer", "Game Developer", "Beginner Artist"]}
         typingSpeed={75}
         initialDelay={200}
         pauseDuration={1500}
@@ -136,7 +136,7 @@ const openWindow = (id: string) => {
   </div>
   </Grid>
   </Grid>
-  <motion.div className="absolute bottom-1 w-full h-auto text-purple flex justify-center items-center">
+  <motion.div className="absolute bottom-1 w-full h-auto text-purple flex justify-center items-center" initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5, delay: 3}}>
     <motion.p> <CopyrightIcon fontSize="small"/> 2025 Nacruw</motion.p>
   </motion.div>
 </NoSsr>

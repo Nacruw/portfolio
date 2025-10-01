@@ -65,8 +65,8 @@ export function FloatingWindow({
         <motion.div className="flex flex-row items-center border-b border-gray-700">
           <Image src={"/assets/img/pfp.png"} alt={"Profile"} width={100} height={100} className="m-4 rounded-full border-2 border-purple"/>
           <div className="text-sm text-white m-4 flex flex-col gap-2">
-            <p className="text-2xl text-purple font-bold">Nacruw :D</p>
-            <p className="text-xl text-purple-200 font-bold">Indie full-stack & game dev</p>
+            <p className="text-2xl text-purple font-bold">Nacruw</p>
+            <p className="text-xl text-purple-200 font-bold">Indie front-end & game dev</p>
          </div>
         </motion.div>
         
@@ -85,31 +85,31 @@ export function FloatingWindow({
         <ArrowDropDownIcon />
       </button>
           <motion.div className="m-8">
-            <p>Hi ! I'm Nacruw (also known as Ryuko), a full-stack and game developper. I can...</p>
+            <p>Hi ! I'm Nacruw (also known as Ryuko), a front-end and game developper. I can...</p>
             <ul className="list-disc list-inside mt-2 font-extrabold">
-              <li className="mt-3">Work on various web projects, on the front side as on the back side</li>
+              <li className="mt-3">Work on various web projects, mainly on the front side</li>
               <li className="mt-2">Create 2D games with Unity, Godot or GameMaker</li>
             </ul>
-            <p className="mt-6">I'm also a beginner artist, I like to draw pixel art and digital art in my free time.</p>
+            <p className="mt-6">I'm also a beginner artist, I practice draw pixel art and digital art in my free time.</p>
             <p className="mt-3">I'm open to new opportunities and collaborations, feel free to reach out to me !</p>
           </motion.div>
           <motion.div>
             <h2 className="text-2xl font-extrabold">Skills</h2>
             <ul className="list-disc list-inside mt-2 font-extrabold text-lg">
-              <li className="mt-3">Front-end ()</li>
-              <li className="mt-2">Back-end ()</li>
-              <li className="mt-2">UI/UX</li>
-              <li className="mt-2">Drawing</li>
-              <li className="mt-2">Game dev</li>
+              <li className="mt-3">Front-end (React (Next.js), HTML/CSS, JavaScript, Vue.js)</li>
+              <li className="mt-2">Back-end (PHP, MongoDB, SQL)</li>
+              <li className="mt-2">UI/UX (Figma, Framer)</li>
+              <li className="mt-2">Drawing (Aseprite, Clip Studio Paint)</li>
+              <li className="mt-2">Game dev (Unity, Godot Engine, Game Maker)</li>
             </ul>
           </motion.div>
           <motion.div>
             <h2 className="text-2xl font-extrabold">Interests</h2>
             <ul className="list-disc list-inside mt-2 font-extrabold text-lg">
               <li className="mt-3">Video Games</li>
-              <li className="mt-2">Girls kissing</li>
-              <li className="mt-2">Bocchi the Rock!</li>
+              <li className="mt-2">Mangas</li>
               <li className="mt-2">Pokemon</li>
+              <li className="mt-2">Bocchi the Rock!</li>
               <li className="mt-2">Hollow Knight</li>
             </ul>
           </motion.div>
@@ -131,7 +131,7 @@ export function FloatingWindow({
     >
       {/* Header */}
       <div className="flex justify-between items-center border-b border-purple pb-1">
-        <h3 className="text-purple font-bold m-4">Projects le S</h3>
+        <h3 className="text-purple font-bold m-4">Projects</h3>
         <button
           onClick={onClose}
           className="text-red-400 hover:text-red-500"
@@ -143,7 +143,7 @@ export function FloatingWindow({
       </div>
 
       {/* Contenu */}
-      <div className="text-sm text-purple m-2 mt-4 ml-4">Here's my projects</div>
+      <div className="text-sm text-purple m-2 mt-4 ml-4">Here are my projects</div>
       <ul className="list-disc list-inside mt-2 font-extrabold text-purple p-4">
               <li className="mt-3">My portfolio :D</li>
             </ul>
@@ -207,7 +207,7 @@ export function FloatingWindow({
 
       </div>
       <motion.div className="text-xs text-white m-4 mt-10 flex justify-center items-center border border-white p-2 rounded-md justify-self-center w-fit" whileHover={{scale: 1.05}}>
-        Clicking any of the link will open it in a new tab !
+        Clicking any of the links will open it in a new tab !
       </motion.div>
     </motion.div> 
     );
@@ -242,7 +242,7 @@ export function FloatingWindow({
           <Image src={"/assets/img/pfp.png"} alt={"Profile"} width={100} height={100} className="m-4 rounded-full border-2 border-purple"/>
           <div className="text-sm text-white m-4 flex flex-col gap-2">
             <p className="text-2xl text-purple font-bold">Nacruw :D</p>
-            <p className="text-xl text-purple-200 font-bold">Indie full-stack & game dev</p>
+            <p className="text-xl text-purple-200 font-bold">Indie front-end & game dev</p>
          </div>
         </motion.div>
         
@@ -261,31 +261,31 @@ export function FloatingWindow({
         <ArrowDropDownIcon />
       </button>
           <motion.div className="m-8">
-            <p>Hi ! I'm Nacruw (also known as Ryuko), a full-stack and game developper. I can...</p>
+            <p>Hi ! I'm Nacruw (also known as Ryuko), a front-end and game developper. I can...</p>
             <ul className="list-disc list-inside mt-2 font-extrabold">
-              <li className="mt-3">Work on various web projects, on the front side as on the back side</li>
+              <li className="mt-3">Work on various web projects, mainly on the front side</li>
               <li className="mt-2">Create 2D games with Unity, Godot or GameMaker</li>
             </ul>
-            <p className="mt-6">I'm also a beginner artist, I like to draw pixel art and digital art in my free time.</p>
+            <p className="mt-6">I'm also a beginner artist, I practice draw pixel art and digital art in my free time.</p>
             <p className="mt-3">I'm open to new opportunities and collaborations, feel free to reach out to me !</p>
           </motion.div>
           <motion.div>
             <h2 className="text-2xl font-extrabold">Skills</h2>
             <ul className="list-disc list-inside mt-2 font-extrabold text-lg">
-              <li className="mt-3">Front-end ()</li>
-              <li className="mt-2">Back-end ()</li>
-              <li className="mt-2">UI/UX</li>
-              <li className="mt-2">Drawing</li>
-              <li className="mt-2">Game dev</li>
+              <li className="mt-3">Front-end (React (Next.js), HTML/CSS, JavaScript, Vue.js)</li>
+              <li className="mt-2">Back-end (PHP, MongoDB, SQL)</li>
+              <li className="mt-2">UI/UX (Figma, Framer)</li>
+              <li className="mt-2">Drawing (Aseprite, Clip Studio Paint)</li>
+              <li className="mt-2">Game dev (Unity, Godot Engine, Game Maker)</li>
             </ul>
           </motion.div>
           <motion.div>
             <h2 className="text-2xl font-extrabold">Interests</h2>
             <ul className="list-disc list-inside mt-2 font-extrabold text-lg">
               <li className="mt-3">Video Games</li>
-              <li className="mt-2">Girls kissing</li>
-              <li className="mt-2">Bocchi the Rock!</li>
+              <li className="mt-2">Mangas</li>
               <li className="mt-2">Pokemon</li>
+              <li className="mt-2">Bocchi the Rock!</li>
               <li className="mt-2">Hollow Knight</li>
             </ul>
           </motion.div>
