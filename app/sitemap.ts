@@ -1,12 +1,16 @@
 import type { MetadataRoute } from 'next'
  
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     {
-      url: 'https://www.nacruw.fun/',
+      url: "",
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: "weekly" as const,
       priority: 1,
-    }
-  ]
+    } as MetadataRoute.Sitemap[number],
+  ].map((route) => ({
+    ...route,
+    url: "https://www.nacruw.fun" + route.url,
+  }));
+ 
 }
