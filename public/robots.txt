@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.nacruw.fun
+
+# Sitemaps
+Sitemap: https://www.nacruw.fun/sitemap.xml
