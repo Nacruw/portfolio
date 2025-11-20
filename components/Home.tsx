@@ -24,7 +24,7 @@ const [windows, setWindows] = useState<WindowData[]>([]);
   const [maxZ, setMaxZ] = useState(10);
 
 const openWindow = (id: string) => {
-    // Évite d'ouvrir 2 fois la même fenêtre
+  
     if (!windows.find((w) => w.id === id)) {
       setWindows((prev) => [...prev, { id}]);
       setZIndexes((prev) => ({ ...prev, [id]: maxZ + 1 }));

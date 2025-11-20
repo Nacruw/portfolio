@@ -46,7 +46,7 @@ export function FloatingWindow({
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
     >
-      {/* Header */}
+
       <div className="flex justify-between items-center border-b border-purple pb-1">
         <h3 className="text-purple font-bold m-4">About</h3>
         <button
@@ -60,7 +60,7 @@ export function FloatingWindow({
         </button>
       </div>
 
-      {/* Contenu */}
+
       <motion.div>
         <motion.div className="flex flex-row items-center border-b border-gray-700">
           <Image src={"/assets/img/pfp.png"} alt={"Profile"} width={100} height={100} className="m-4 rounded-full border-2 border-purple"/>
@@ -90,7 +90,7 @@ export function FloatingWindow({
               <li className="mt-3">Work on various web projects, mainly on the front side</li>
               <li className="mt-2">Create 2D games with Unity, Godot or GameMaker</li>
             </ul>
-            <p className="mt-6">I'm also a beginner artist, I practice draw pixel art and digital art in my free time.</p>
+            <p className="mt-6">I'm also a beginner artist, I practice pixel art and digital art in my free time.</p>
             <p className="mt-3">I'm open to new opportunities and collaborations, feel free to reach out to me !</p>
           </motion.div>
           <motion.div>
@@ -129,7 +129,7 @@ export function FloatingWindow({
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
     >
-      {/* Header */}
+
       <div className="flex justify-between items-center border-b border-purple pb-1">
         <h3 className="text-purple font-bold m-4">Projects</h3>
         <button
@@ -142,10 +142,15 @@ export function FloatingWindow({
         </button>
       </div>
 
-      {/* Contenu */}
+
       <div className="text-sm text-purple m-2 mt-4 ml-4">Here are my projects</div>
       <ul className="list-disc list-inside mt-2 font-extrabold text-purple p-4">
               <li className="mt-3">My portfolio :D</li>
+              <p className="text-xs p-2">(WIP) I still need to add some decorative stuff</p>
+              <a className="underline hover:text-blue-200 transition transition-200 ease-in-out" href="https://shiny-bingo.vercel.app/" target="blank"><li className="mt-3">A pokemon bingo game</li></a>
+                <p className="text-xs p-2">(WIP) Multiplayer Pokemon bingo lockout game. You can play with your own rules, like catching or shiny hunt them</p>
+                <img src="/assets/img/bingoproject_screenshot.png" alt="Pokemon Bingo room example" className="w-1/2 p-2"/>
+              
             </ul>
             <motion.div className="text-purple flex justify-center p-4">More projects coming soon ! </motion.div>
     </motion.div> 
@@ -161,7 +166,7 @@ export function FloatingWindow({
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
     >
-      {/* Header */}
+
       <div className="flex justify-between items-center border-b border-purple pb-1">
         <h3 className="text-purple font-bold m-4">Links</h3>
         <button
@@ -174,7 +179,7 @@ export function FloatingWindow({
         </button>
       </div>
 
-      {/* Contenu */}
+
       <div className="text-sm text-white m-4 mt-8 grid grid-cols-4">
         
         <motion.div className="flex justify-center items-center flex-col w-auto h-auto" whileHover={{scale: 1.1}}>
@@ -222,7 +227,7 @@ export function FloatingWindow({
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      {/* Header */}
+
       <div className="flex justify-between items-center border-b border-purple pb-1">
         <h3 className="text-purple font-bold m-4">About</h3>
         <button
@@ -236,7 +241,7 @@ export function FloatingWindow({
         </button>
       </div>
 
-      {/* Contenu */}
+
       <motion.div>
         <motion.div className="flex flex-row items-center border-b border-gray-700">
           <Image src={"/assets/img/pfp.png"} alt={"Profile"} width={100} height={100} className="m-4 rounded-full border-2 border-purple"/>
@@ -266,7 +271,7 @@ export function FloatingWindow({
               <li className="mt-3">Work on various web projects, mainly on the front side</li>
               <li className="mt-2">Create 2D games with Unity, Godot or GameMaker</li>
             </ul>
-            <p className="mt-6">I'm also a beginner artist, I practice draw pixel art and digital art in my free time.</p>
+            <p className="mt-6">I'm also a beginner artist, I practice pixel art and digital art in my free time.</p>
             <p className="mt-3">I'm open to new opportunities and collaborations, feel free to reach out to me !</p>
           </motion.div>
           <motion.div>
@@ -302,7 +307,7 @@ export function FloatingWindow({
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      {/* Header */}
+
       <div className="flex justify-between items-center border-b border-purple pb-1">
         <h3 className="text-purple font-bold m-4">Projects</h3>
         <button
@@ -315,10 +320,14 @@ export function FloatingWindow({
         </button>
       </div>
 
-      {/* Contenu */}
+
       <div className="text-sm text-purple m-4">Here's my projects</div>
       <ul className="list-disc list-inside mt-2 font-extrabold text-purple p-4">
               <li className="mt-3">My portfolio :D</li>
+              <p className="text-xs p-2">(WIP) I still need to add some decorative stuff</p>
+              <a className="underline hover:text-blue-200 transition transition-200 ease-in-out" href="https://shiny-bingo.vercel.app/" target="blank"><li className="mt-3">A pokemon bingo game</li></a>
+              <p className="text-xs p-2">(WIP) Multiplayer Pokemon bingo lockout game. You can play with your own rules, like catching or shiny hunt them</p>
+                <img src="/assets/img/bingoproject_screenshot.png" alt="Pokemon Bingo room example" className="p-2"/>
             </ul>
             <motion.div className="text-purple flex justify-center p-4">More projects coming soon ! </motion.div>
     </motion.div> 
@@ -331,7 +340,7 @@ style={{ zIndex }}
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      {/* Header */}
+
       <div className="flex justify-between items-center border-b border-purple pb-1">
         <h3 className="text-purple font-bold m-4">Links</h3>
         <button
@@ -344,7 +353,7 @@ style={{ zIndex }}
         </button>
       </div>
 
-      {/* Contenu */}
+     
       <div className="text-sm text-white m-4 mt-8 grid grid-cols-1 gap-10">
         
         <motion.div className="flex justify-center items-center flex-col w-auto h-auto" whileHover={{scale: 1.1}}>
