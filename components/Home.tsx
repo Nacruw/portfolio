@@ -137,7 +137,7 @@ const openWindow = (id: string) => {
   </Grid>
   </Grid>
   <motion.div className="absolute bottom-1 w-full h-auto text-purple flex justify-center items-center" initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5, delay: 3}}>
-    <motion.p> <CopyrightIcon fontSize="small"/> 2025 Nacruw</motion.p>
+    <motion.p> <CopyrightIcon fontSize="small"/> 2026 Nacruw</motion.p>
   </motion.div>
 </NoSsr>
 </>
