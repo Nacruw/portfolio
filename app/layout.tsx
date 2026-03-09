@@ -30,6 +30,14 @@ export default function RootLayout({
         <meta name="keywords" content="Nacruw, Ryuko, Portfolio, Front-end, Game dev, Developer, Web developer, Indie developer, Marwane Birrou, React, Nextjs, Marwane" />
         <meta name="author" content="Marwane Birrou" />
         <meta name="description" content="Portfolio website of Marwane Birrou (Nacruw), a front-end and game developer." />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KLHKLCJTYE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KLHKLCJTYE');
+</script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
