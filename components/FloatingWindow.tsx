@@ -204,7 +204,7 @@ export function FloatingWindow({
         </motion.div>
 
         <motion.div className="flex justify-center items-center flex-col w-auto h-auto" whileHover={{scale: 1.1}}>
-          <Link href={"https://www.linkedin.com/in/marwanebirrou/"} target="_blank" className="flex flex-col justify-center items-center">
+          <Link href={"https://www.youtube.com/watch?v=gv5tzFa2yBg"} target="_blank" className="flex flex-col justify-center items-center">
             <Image src={"/assets/img/linkedin-white.png"} alt={"LinkedIn"} width={80} height={80}/>
             <p>LinkedIn</p>
           </Link>
